@@ -1,8 +1,8 @@
 'use strict'
 
-const gulp = require('gulp')
-const server = require('gulp-server-livereload')
-const sass = require('gulp-sass')
+import  gulp   from 'gulp'
+import server from 'gulp-server-livereload'
+import  sass  from 'gulp-sass'
 
 const config = {
     host: '0.0.0.0',

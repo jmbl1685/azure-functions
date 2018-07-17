@@ -10,7 +10,11 @@
   "author": "Juan Batty<jmbl1685@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
     "gulp-sass": "^4.0.1",
     "gulp-server-livereload": "^1.9.2"
   }
