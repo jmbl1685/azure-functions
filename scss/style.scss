@@ -1,0 +1,36 @@
+@import '_mixins';
+
+$roboto_font: 'Roboto Condensed';
+
+$map: (
+  primary: red,
+  secondary: green,
+  tertiary: blue
+);
+
+body{
+  font-family: $roboto_font, sans-serif;
+}
+
+.center-container{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  @include center;
+}
+
+// This a test
+@for $i from 1 through 5 {
+  .cols-#{$i}{
+    width: #{$i * 5}px
+  }
+}
+
+
+
+
